@@ -1,0 +1,78 @@
+{
+    "common": {
+        "name": "bootstrap4",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "Bootstrap4 & Font Awesome5",
+        "titleLang": {
+            "en": "Bootstrap4 & Font Awesome5",
+            "de": "Bootstrap4 & Font Awesome5",
+            "ru": "Bootstrap4 & Font Awesome5",
+            "pt": "Bootstrap4 e fonte Awesome5",
+            "nl": "Bootstrap4 & Font Awesome5",
+            "fr": "Bootstrap4 & Font Awesome5",
+            "it": "Bootstrap4 e Font Awesome5",
+            "es": "Bootstrap4 y Font Awesome5",
+            "pl": "Bootstrap4 i czcionka Awesome5",
+            "zh-cn": "Bootstrap4和Font Awesome5"
+        },
+        "desc": {
+            "en": "Use Bootstrap4 or/and Font Awesome in VIS.",
+            "de": "Verwenden Sie Bootstrap4 oder / und Font Awesome in VIS.",
+            "ru": "Используйте Bootstrap4 или / и Font Awesome в VIS.",
+            "pt": "Use Bootstrap4 ou / e Font Awesome no VIS.",
+            "nl": "Gebruik Bootstrap4 of / en Font Awesome in VIS.",
+            "fr": "Utilisez Bootstrap4 ou / et Font Awesome dans VIS.",
+            "it": "Usa Bootstrap4 o / e Font Awesome in VIS.",
+            "es": "Use Bootstrap4 o / y Font Awesome en VIS.",
+            "pl": "Użyj Bootstrap4 lub / i Font Awesome w VIS.",
+            "zh-cn": "在VIS中使用Bootstrap4或/和Font Awesome。"
+        },
+        "authors": [
+            "Frank Schreier <f.schreier@xnet2.de>"
+        ],
+        "keywords": [
+            "boostrap",
+            "font awesome"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "bootstrap4.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/GOOFY008/ioBroker.bootstrap4/master/admin/bootstrap4.png",
+        "readme": "https://github.com/GOOFY008/ioBroker.bootstrap4/blob/master/README.md",
+        "loglevel": "info",
+        "restartAdapters": [
+            "vis"
+        ],
+        "localLink": "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+        "onlyWWW": true,
+        "noConfig": true,
+        "singleton": true,
+        "type": "visualization-widgets",
+        "mode": "once",
+        "dependencies": [
+            "vis"
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}

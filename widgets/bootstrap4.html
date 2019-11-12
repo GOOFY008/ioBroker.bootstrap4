@@ -1,0 +1,42 @@
+<!--
+    ioBroker.vis bootstrap4 Widget-Set
+    version: "0.0.1"
+    Copyright 2019 Frank Schreier f.schreier@xnet2.de
+-->
+<link rel="stylesheet" href="widgets/bootstrap4/css/style.css" />
+<script type="text/javascript" src="widgets/bootstrap4/js/bootstrap4.js"></script>
+
+<script id="tplShowFontawesome"
+        type="text/ejs"
+        class="vis-tpl"
+        data-vis-prev='<img src="widgets/bootstrap/img/fontawesome.png"style="width:auto;height:60px;"></img>'
+        data-vis-attrs="font[fas fa-check]/text;fontColor[#34ba21]/color;size[36]/number"
+        data-vis-set="bootstrap4"
+        data-vis-type="static"
+		data-vis-update-style="true"
+        data-vis-name="Font Awesome Free">
+		<div class="vis-widget <%== this.data.attr('class') %>" style="width:50px; height:50px;" id="<%= this.data.attr('wid') %>" >
+			<div class="bootstrap-class vis-widget-body">
+				<div  class="w-100 p-3"><span class="fontawesome align-middle <%== this.data.attr('font') %>" style="
+				color:<%== this.data.attr('fontColor') %>;
+				font-size:<%== this.data.attr('size') %>px;
+				height:<%== this.data.attr('size') %>px;
+				" ></span></div>
+			</div>
+		</div>
+</script>
+<script id="tplBootstrapFullPage"
+        type="text/ejs"
+        class="vis-tpl"
+		data-vis-prev='<img src="widgets/bootstrap/img/Bootstrap.svg" style="width:auto;height:100px;"></img>'
+        data-vis-attrs="pageHtml/html;fontColor[#000]/color;backcolor[#fff]/color;"
+        data-vis-set="bootstrap4"
+        data-vis-type="val"
+		data-vis-update-style="true"
+        data-vis-name="Bootstrap v4.3.1">
+		<div class="fullpage <%== this.data.attr('class') %>" style="overflow:visible;" id="<%= this.data.attr('wid') %>">
+			<div class="bootstrap-class" style="min-width:100vW; min-height:100vH;color:<%== this.data.attr('fontColor') %>;background:<%== this.data.attr('backcolor') %>;">
+				<%== this.data.attr('pageHtml') %>
+			</div>
+		</div>
+</script>
