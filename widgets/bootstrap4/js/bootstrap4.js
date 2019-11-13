@@ -23,7 +23,7 @@ vis.binds["bootstrap4"] = {
         }
 		// add Bootstrap JS only when not in Edit-Mode!!!! Important!!!
 		if(!vis.editMode){
-			$('<script type="text/javascript" src="widgets/bootstrap/js/bootstrap.bundle.min.js"></script>').insertAfter('body');
+			$("<script type=\"text\/javascript\" src=\"widgets/bootstrap4/js/bootstrap.bundle.min.js\"></script>").insertAfter("body");
 		}
     },
     createWidget: function (widgetID, view, data, style) {

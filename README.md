@@ -16,6 +16,11 @@ Use Bootstrap4 or/and Font Awesome in VIS.
 
 ## Changelog
 
+### 0.0.2
+* (Frank Schreier) 
+ - Fixes in bootstrap.js (Wrong script insert)
+ - Fixes wrong image folder
+ 
 ### 0.0.1
 * (Frank Schreier) initial release
 
